@@ -1,0 +1,39 @@
+# Build artifacts
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+DerivedData/
+
+# Visual Studio / MSVC
+*.sln
+*.vcproj
+*.vcxproj
+*.filters
+*.user
+*.dsp
+*.dsw
+*.opensdf
+*.sdf
+*.ipch
+*.pdb
+*.obj
+*.idb
+*.tlog
+*.log
+
+# Editor
+.vscode/
+.idea/
