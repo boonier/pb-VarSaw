@@ -47,7 +47,7 @@ BidulePlugin(host){
 	_numFreqOuts=0;
 	_numMagIns=0;
 	_numMagOuts=0;
-	_numParams=3;
+	_numParams=0;
 
     std::cout << "creating VarSaw"  << endl;
 
