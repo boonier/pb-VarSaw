@@ -68,9 +68,9 @@ bool VarSaw::init() {
 }
 void 
 VarSaw::getAudioInNames(std::vector<std::string>& vec){
-    vec.push_back("Frequency");
-	vec.push_back("Amplitude");
-    vec.push_back("Width");
+    vec.push_back("frequency");
+	vec.push_back("amplitude");
+    vec.push_back("width");
 }
 
 void 
@@ -80,32 +80,32 @@ VarSaw::getAudioOutNames(std::vector<std::string>& vec){
 
 void 
 VarSaw::getMIDIInNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough MIDI in");
+	vec.push_back("passthrough midi in");
 }
 
 void 
 VarSaw::getMIDIOutNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough MIDI out");
+	vec.push_back("passthrough midi out");
 }
 
 void 
 VarSaw::getFreqInNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough frequency in");
+	vec.push_back("passthrough frequency in");
 }
 
 void 
 VarSaw::getFreqOutNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough frequency out");
+	vec.push_back("passthrough frequency out");
 }
 
 void 
 VarSaw::getMagInNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough magnitude in");
+	vec.push_back("passthrough magnitude in");
 }
 
 void 
 VarSaw::getMagOutNames(std::vector<std::string>& vec){
-	vec.push_back("Passthrough magnitude out");
+	vec.push_back("passthrough magnitude out");
 }
 
 void 
